@@ -35,33 +35,33 @@
 }
 
 
-.edit-item,
-.item-label {
+.todo-list__edit-item,
+.todo-list__item-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.add-item-wrapper {
+.todo-list__add-item-wrapper {
   display: flex;
 }
 
-.todo-items {
+.todo-list__todo-items {
   margin: 0;
   padding: 0px;
 }
 
-.todo-item {
+.todo-list__todo-item {
   list-style: none;
 }
 
-.edit-item,
-.add-item,
-.button {
+.todo-list__edit-item,
+.todo-list__add-item,
+.todo-list__button {
   outline: none;
 }
 
-.button {
+.todo-list__button {
   background: none;
   border: 0px;
   color: #888;
@@ -71,12 +71,12 @@
   cursor: pointer;
 }
 
-.button:hover {
+.todo-list__button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.todo-title {
+.todo-list__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +87,7 @@
   margin: 0 0 20px;
 }
 
-.edit-item {
+.todo-list__edit-item {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,19 +100,19 @@
   color: #888;
 }
 
-.edit-item:focus {
+.todo-list__edit-item:focus {
   color: #333;
 }
 
 /* New Task */
 
 
-#add-item {
+#todo-list__add-item {
   width: 318px;
 }
 
 /* Task list */
-.todo-item {
+.todo-list__todo-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,47 +121,47 @@
   align-items: center;
 }
 
-.item-checkbox {
+.todo-list__item-checkbox {
   margin: 0 10px;
 }
 
-.item-label {
+.todo-list__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.edit-item {
+.todo-list__edit-item {
   width: 226px;
 }
 
-.delete-img {
+.todo-list__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-img:hover {
+.todo-list__delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-items label {
+#todo-list__completed-items label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.todo-item .edit-item {
+.todo-list__todo-item .todo-list__edit-item {
   display: none;
 }
 
-.edit-active .edit-item {
+.todo-list__edit-active .todo-list__edit-item {
   display: inline-block;
   width: 224px;
 }
 
-.edit-active .item-label {
+.todo-list__edit-active .todo-list__item-label {
   display: none;
 }
