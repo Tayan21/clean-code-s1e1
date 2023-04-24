@@ -55,7 +55,9 @@
   list-style:none;
 }
 
-.edit-item,.add-item,button {
+.edit-item,
+.add-item,
+.button {
   outline:none;
 }
 
