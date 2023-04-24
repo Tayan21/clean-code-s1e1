@@ -52,13 +52,13 @@
 }
 
 .todo-item {
-  list-style:none;
+  list-style: none;
 }
 
 .edit-item,
 .add-item,
 .button {
-  outline:none;
+  outline: none;
 }
 
 .button {
